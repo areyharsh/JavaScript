@@ -6,12 +6,12 @@ console.log(3
     +
      3) // code readability should be high
 
-console.log("Hitesh")
+console.log("heheh")
 
 
-let name = "hitesh"
-let age = 18
-let isLoggedIn = false
+let name = "Harsh"
+let age = 22
+let isLoggedIn = true
 let state;
 
 // number => 2 to power 53
