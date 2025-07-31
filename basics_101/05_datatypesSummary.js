@@ -51,3 +51,28 @@ console.log(typeof anotherId);
        Function  =>  function
        Object  =>  object
        */
+
+// ================================================================
+
+/* 
+
+ STACK MEMORRY
+
+ Stack  Memory is  for primitive datatypes 
+  when we recall any varuable from primitive datatype it provides a COPY of it.
+
+ON THE OTHER HAND
+
+HEAP MEMORY 
+
+HEAP MEMORY is for non primitive datatypes
+when we recall any variable from non primitive datatype it REFERS from the heap memory.
+
+*/
+
+let myName = "Harshvardhan"
+
+let myCapname = myName
+myCapname = "Harshya"
+
+console.log(myCapname);
