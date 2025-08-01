@@ -1,35 +1,40 @@
-const name = "harshvardhan"
-const repoCount = 3
+const name =  "Hasrhvardhan"
+const repoCount = 5
 
-// console.log(name + repoCount + " Value");
+console.log(`Hello my name is ${name} and my repository count is ${repoCount} `);
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+const gameName = new String ("blackDiamond")
 
-const gameName = new String('harsh-hd-com')
+console.log(gameName[5]);
 
-// console.log(gameName[0]);
 // console.log(gameName.__proto__);
 
-
 // console.log(gameName.length);
+
 // console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('h'));
 
-const newString = gameName.substring(0, 4)
-console.log(newString);
+// console.log(gameName.charAt(6));
 
-const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+// console.log(gameName.indexOf('c'));
 
-const newStringOne = "   harsh    "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(gameName.charAt(6));
 
-const url = "https://harshya.com/areyharsh%20asa_kas"
+// console.log(gameName.substring(6));
 
-console.log(url.replace('%20', '-'))
+// console.log(gameName.charAt(6));
 
-console.log(url.includes('malak'))
+// const newString = gameName.substring(0,6)
+// console.log(newString);
+
+// const anotherString = gameName.slice(-7,3)
+// console.log(anotherString);
+
+// const newStringOne = "  harsh     "
+// console.log(newStringOne.trimEnd());
+
+// const url = "https://harshya.com/harsh%20Deshmukh" 
+// console.log(url.replace('%20','_'));
+
+// console.log(url.includes('harsh','_'));
 
 console.log(gameName.split('-'));
