@@ -48,6 +48,19 @@ const users = [
 users[1].email
 console.log(gameUser);
 
-console.log(Object.keys(gameUser));
-console.log(Object.values(gameUser));
-console.log(Object.entries(gameUser));
+// console.log(Object.keys(gameUser));
+// console.log(Object.values(gameUser));
+// console.log(Object.entries(gameUser));
+
+
+
+
+const game = {
+    gameName : "San Andreas",
+    price : "799$",
+    gameCompany : "Rockstar Games"
+}
+
+const {gameCompany : Company} = game
+
+console.log(Company);
